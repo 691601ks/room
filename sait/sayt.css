@@ -1,0 +1,537 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.headertxt{
+    display: flex;
+    width: 50px;
+    height: 20px;
+    justify-content: space-between;
+    gap: 270px;
+    font-size: 12px;
+    margin-left: 350px;
+    margin-top: -30px;
+    
+}
+.logoTwo{
+    margin-left: 1600px;
+    margin-top: -50px;
+}
+.korzina{
+    margin-left: 1850px;
+    margin-top: -65px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #E0E0E0;
+    margin-top: 30px;
+}
+
+.OnePicture{
+    width: 1327px;
+    height: 746px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+    display: block;
+
+}
+.txtOne{
+    font-size: 48px;
+    margin-left: 370px;
+    margin-top: 32px;
+
+}
+.prozrachneiTXT{
+    color: #AAAAAA;
+    font-size: 24px;
+    margin-left: 977px;
+    margin-top: -140px;
+}
+.img1{
+    width: 588px;
+    height: 412px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.img2{
+    width: 588px;
+    height: 412px;
+    margin-left: 1110px;
+    margin-top: -412px;
+}
+.img1Txt{
+    font-size: 24px;
+margin-top: 3px;
+margin-left: 300px;
+
+}
+.img2Txt{
+    font-size: 24px;
+    margin-left: 1110px;
+margin-top: -28px;
+}
+.img3{
+    width: 588px;
+    height: 412px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.img4{
+    width: 588px;
+    height: 412px;
+    margin-left: 1110px;
+    margin-top: -411px;
+
+}
+.img3Txt{
+    font-size: 24px;
+    margin-left: 300px;
+}
+.img4Txt{
+    font-size: 24px;
+    margin-left: 1110px;
+    margin-top: -28px;
+
+}
+.TxtTwoclass{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px
+
+}
+.TxtTwoPR{
+    font-size: 24px;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+
+}
+.logotipchiki{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.bigpicture{
+    width: 1440px;
+    height: 736px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.strelka{
+    margin-top: -420px;
+
+    display: flex;
+    margin-left: 1640px;
+    
+}
+.strelka2{
+    margin-top: -50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 240px;
+}
+.lineElipse{
+    margin-top: 370px;
+    margin-left: 270px;
+
+}
+.TxtChetiri{
+    font-size: 48px;
+    margin-left: 300px;
+    
+}
+.get{
+    color: #46856E;
+    font-size: 14px;
+    margin-left: 300px;
+}
+.kotiki{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+
+}
+.Cost-effective{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    gap: -70px;
+    margin-left: -10px;
+}
+.CotikZxc{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.ImgFive{
+    width: 1296px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.sixTxt{
+    color: #AAAAAA;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+}
+.fsddsfsdfa {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+    margin-top: 10px;
+    margin-right: 230px;
+}
+.imgEg{
+    width: 671px;
+    height: 672px;
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.txtEg{
+    font-size: 32px;
+    display: flex;
+    margin-left: 240px;
+    margin-top: -400px;
+    justify-content: center;
+}
+.greh{
+    color: #AAAAAA;
+    display: flex;
+    justify-content: center;
+    margin-left: 340px;
+}
+.asdjk{
+    width: 671px;
+    height: 672px;
+    display: block;
+    margin-top: 400px;
+    margin-left: 1100px;
+}
+.drjlke{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-left: -500px;
+    margin-top: -400px;
+}
+.ewrnur{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-left: -410px;
+    margin-top: 10px;
+    color: #AAAAAA;
+
+}
+.img23{
+    width: 671px;
+    height: 672px;
+    margin-top: 300px;
+    margin-left: 200px;
+
+}
+.img23txt{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+   margin-left: 190px;
+   margin-top: -400px;
+}
+.img33txt{
+    display: flex;
+    justify-content: center;
+    margin-left: 378px;
+    margin-top: 10px;
+    color: #AAAAAA;   
+}
+.img24{
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+}
+.eleven{
+width: 1200px;
+height: 465px;
+background-color: #F2F2F2;
+margin-top: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.last{
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+}
+.kubiki{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.kubikiTxt{
+    display: flex;
+    justify-content: space-around;
+}
+.ButtonFinal{
+    width: 146px;
+    height: 50px;
+    background-color: #46856E;
+    border-radius: 2px;
+    display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+color: #FFFFFF;
+align-items: center;
+justify-content: center;
+
+}
+.txtLastFootherButton{
+    color: #AAAAAA;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.podval{
+    width: 100%;
+    height: 719px;
+    background-color: #2B2B2B;
+    margin-top: 100px;
+    display: flex;
+
+}
+.podvalLogo{
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.aboutUsa{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.GroupOne{
+    display: flex;
+
+    gap: 6px;
+    width: 100px;
+    height: 600px;
+    color: #FFFFFF;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: -40px;
+}
+.dkdijks{
+    color: #FFFFFF;
+    margin-top: 95px;
+    margin-left: 100px;
+}
+.GroupTwo{
+    color: #FFFFFF;
+    display: flex;
+    width: 100px;
+    height: 600px;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 130px;
+    margin-left: -50px;
+}
+.Cromosoms{
+color: #FFFFFF;
+margin-top: 350px;
+margin-left: -300px;
+
+
+}
+.GroupThree{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 380px;
+    margin-left: -70px;
+}
+.ofice{
+    color: #FFFFFF;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+.Brodwey{
+    color: #FFFFFF;
+    margin-top: 380px;
+    margin-left: -40px;
+}
+.FolowUs{
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 90px;
+    width: 80px;
+}
+.imgSocial{
+    margin-top: 150px;
+    margin-left: -60px;
+}
+.Join{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.PoleTxt{
+    width: 327px;
+    height: 54px;
+    border: 1px solid #FFFFFF66;
+    border-radius: 3px;
+    margin-top: 160px;
+    margin-left: -280px;
+}
+.UtatedSA{
+    color: #FFFFFF80;
+    margin-top: 220px;
+    margin-left: -120px;
+}
+.strelkaPodval{
+    margin-top: 224px;
+    margin-left: 10px;
+}
+.Kvadratick{
+    width: 28px;
+    height: 26px;
+    border: 1px solid #FFFFFF80;
+    margin-top: 270px;
+    margin-left: -320px;
+}
+.LastPodvalTxtKvadratiki{
+    color: #FFFFFF80;
+    margin-top: 268px;
+    margin-left: 20px;
+}
+.signup{
+    color: #FFFFFF;
+    margin-top: 400px;
+    margin-left: -80px;
+    width: 100px;
+    height: 30px;
+}
+.lastTxt{
+    width: 120px;
+    height: 20px;
+    color: #FFFFFF;
+    transform: rotate(270deg);
+    margin-left: 640px;
+    margin-top: 600px;
+
+}
